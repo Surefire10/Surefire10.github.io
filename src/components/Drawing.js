@@ -3,8 +3,7 @@
 import classes from "./Drawing.module.css"
 function colorRandomize(){
 
-    // let number = Math.floor(Math.random() * 20)
-    let number = 1
+    let number = Math.floor(Math.random() * 20)
 
        return number < 10? "white": "black"
 }
@@ -23,13 +22,13 @@ function Background(){
         <ScribbleStar style={{
             position: "absolute",
             top: "70%",
-            left: "15%",
+            left: "12%",
         }} height="233" width="233" />
 
         <Plus style={{
             position: "absolute",
             top: "44%",
-            left: "76%"
+            left: "86%"
         }} height="233" width="233" />
 
    
