@@ -1,0 +1,52 @@
+
+
+html {
+  
+  background-color: black;
+  background-image:  url("./assets/images/black-paper.png");
+  overflow-x: hidden;
+  font-family: 'Gill Sans MT', Calibri, sans-serif;
+  font-size: calc(15px + 0.390625vw);
+
+}
+body{
+
+  padding:0;
+  margin:0;
+
+
+}
+
+#root{
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  row-gap: 30px;
+  flex-basis: auto;
+   min-height: 50%;
+  
+
+}
+
+
+
+span a{
+
+  text-decoration: none;
+}
+
+
+h3{
+
+  color:brown;
+}
+
+h4{
+
+  color:white;
+}
+
+
+

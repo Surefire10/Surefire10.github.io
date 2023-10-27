@@ -1,0 +1,210 @@
+
+
+.component{
+
+    height: 10%;
+}
+
+.container{
+
+    background-color: black;
+    height: 3%;
+    width: 100%;
+    display: inline-block;
+    
+
+ } 
+
+.topbar{
+
+    color: aliceblue;
+    font-size: 0.8em;
+    padding:0;
+    text-align: right;
+    margin-right: 2.5em;
+    font-family:'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+
+}
+
+.topbar ul{
+
+   margin: 0;
+   padding: 0;
+}
+
+.topbar li{
+
+    display: inline-block;
+    margin: 0;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.9em;
+
+}
+
+
+
+.mainIcon{
+
+    position: relative;
+    width: 10%;
+    color: aliceblue;
+    float: left;
+    line-height: 0.4em;
+
+
+}
+
+.mainIcon{
+
+    margin: 1.05em;
+}
+
+
+.element{
+    cursor: pointer;
+    color: #fff;
+    text-shadow:
+      0 0 7px aliceblue,
+      0 0 15px aliceblue;
+    text-decoration: none;
+  
+}
+
+.element :hover{
+
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow:
+      0 0 7px rgb(34, 34, 34),
+      0 0 10px rgb(30, 31, 31),
+      0 0 21px rgb(30, 31, 31),
+      0 0 26px rgb(30, 31, 31);
+
+}
+
+.active{
+
+    color: aliceblue;
+    box-shadow: 0 4px 2px -2px aliceblue;
+    text-decoration: none;
+
+
+}
+
+.sticky{
+
+    position: fixed;
+    top:0%;
+    width: 100%;
+    z-index: 10;
+}
+
+.burger{
+
+    display: none;
+
+    
+ }
+
+ /* Mobile */
+
+
+@media (max-width: 35.5em){
+
+
+    .topbar li{
+        
+        display: none;
+    }
+    .burger{
+       
+        position: relative;
+        width: 10%;
+        height: 1%;
+        float: right;
+        margin: 0.3em 0.2em 0.5em ;
+        display: block;
+        cursor: pointer;
+    
+    }
+
+    .burger svg{
+        
+        display: inline-block;
+        font-size: 1.5em;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+
+    }
+
+    .close{
+
+        position: relative;
+        width: 10%;
+        height: 1%;
+        float: right;
+        margin: 1.0em 0.2em 0.5em ;
+        display: block;
+        cursor: pointer;
+        font-size: 1.0em;
+        
+    }
+
+    .overlay{
+
+        position: fixed;
+        top: 5%;
+        height: 30%;
+        width: 100%;
+        background: black;
+        opacity: 0.9;
+        z-index: 6;
+
+       
+    }
+
+    .overlayList{
+
+        position: relative;
+        top: 10%;
+        height: 80%;
+        width: 90%;
+        text-align: right;
+        list-style: none;
+        padding: 0.2em;
+        
+    }
+
+    .overlayElement{
+
+        height: 25%;
+        width: 100%;
+        cursor: pointer;
+        color: #fff;
+        text-shadow:
+          0 0 7px aliceblue,
+          0 0 15px aliceblue;
+        text-decoration: none;
+      
+    }
+    
+    .overlayElement :hover{
+    
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        text-shadow:
+          0 0 7px rgb(34, 34, 34),
+          0 0 10px rgb(30, 31, 31),
+          0 0 21px rgb(30, 31, 31),
+          0 0 26px rgb(30, 31, 31);
+    
+    }
+}
+
+
+

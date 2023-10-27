@@ -1,0 +1,332 @@
+
+
+.component{
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-grow: 3;
+
+    
+}
+
+
+.card{
+
+
+    width: auto;
+    height: 15%;
+    background-color: black;
+    z-index: 2;
+    
+}
+
+
+.textContainer{
+
+    margin-left: 4.0em ;
+    height: 50%;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.supertext{
+
+  
+    font-size: 0.8em;
+    padding: 0.5em;
+
+    
+}    
+
+
+.textContainer h2{
+
+    color: brown;
+    font-size: 4.0em;
+    line-height: 0.2em;
+    padding: 0;
+    
+
+} 
+
+.content{
+
+    height: 50%;
+    font-size: 1.0em;
+    color: aliceblue;
+    width: 40%;
+    border-left: 2px solid aliceblue ;
+    padding: 0.8em;
+    
+
+}
+
+
+
+.projectContainer{
+
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.41);
+    
+   
+}
+
+.project{
+
+    display: flex;
+    flex-direction: row;
+    min-height: 50%;
+    width: 70%;
+    margin-top: 2.0em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+
+}
+
+
+.sliderContainer{
+
+    overflow: hidden; /*fixed slider bug caused by setting flex-direction: row*/
+    width: 40%;
+    padding: 2.0em;
+
+
+}
+
+
+.infoContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+}
+
+.image{
+
+    /* 100% of its container size */
+    width: 100%;
+    
+}
+
+.title{
+
+    color:aliceblue;
+    font-size: 1.0em;
+    line-height: 0.2em;
+    padding: 0.3em;
+}
+
+.scope{
+
+   
+    color:aliceblue;
+    font-size: 0.7em;
+    line-height: 0.2em;
+    padding: 0.1em;
+
+
+}
+
+
+
+.description{
+
+    position: relative;
+    top:-5%;
+    color: aliceblue;
+    font-size: 0.9em;
+
+
+}
+
+
+
+.skillsContainer{
+
+   
+    height: 30%;
+
+    
+}
+
+.skillsContainer div{
+
+    background-color: brown; 
+    text-align: center;
+    height: 10%;
+    width: fit-content;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    display: inline-block;    
+}
+
+.skillItem{
+
+    font-size: 0.6em;
+    padding: 0.2em;
+    color: aliceblue;
+
+    
+}
+
+.skillItem h2{
+
+    margin: 0;
+}
+
+
+
+
+
+
+ @media (max-width: 56.25em) {
+
+    .component{
+
+        height: 160%
+    }
+
+    .card{
+
+   
+        height: 13%;
+      
+        
+    }
+
+    .supertext{
+
+        top: 30%;
+    
+        
+    }  
+
+    .content{
+
+    
+        width: 60%;
+     
+    
+    }
+
+    .projectContainer{
+
+        min-height: 85%;
+    
+    
+    }
+
+    
+    .project{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-basis: auto;
+        height: 90%;
+        width: 90%;
+        
+
+    }
+
+    .sliderContainer{
+        
+        width: 90%;
+        height: 50%;
+        padding: 1.3em;
+    
+    }
+
+    .infoContainer{
+
+        width: 80%;
+        padding: 1.0em;
+        height: 40%;
+
+    }
+
+    .scope{
+
+       
+        color:aliceblue;
+        padding: 0.7em;
+        font-size: 0.7em;
+        
+    }
+    
+    
+    
+    .description{
+    
+       
+        color: aliceblue;
+        font-size: 0.9em;
+    
+    
+    }
+
+    .skillItem h2{
+
+        padding: -0.2em;
+    }
+
+
+}
+
+/*
+@media (max-width: 35.5em){
+
+    
+
+    .projectContainer{
+
+    
+        height: 350%;
+    
+    
+    }
+
+    .project{
+
+        height: 28%;
+        width: 90%;
+
+    }
+
+
+    .imageSlider{
+        
+       
+        width: 100%;
+        height: 50%;
+
+    
+    }
+
+  
+    
+    .infoContainer{
+    
+       
+        height: 50%;
+        width: 90%;
+        
+    }
+
+
+}
+ */

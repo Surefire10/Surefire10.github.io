@@ -1,0 +1,50 @@
+
+
+.wrapper{
+
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    border: 2px solid white;
+}
+
+.linkContainer{
+
+
+    position:absolute;
+    top: 80%;
+    left: 65%;
+    width: 30%;
+    height: 10%;
+
+
+    
+}
+
+
+.emailWrapper{
+
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.emailText{
+
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 18px;
+}
+
+
+       
+        
+
+
+
+    
