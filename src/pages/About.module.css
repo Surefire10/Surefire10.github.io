@@ -152,7 +152,7 @@
 }
 
 
-/*mid screen and landscape (too much space between titile and content)*/
+/*mid screen and landscape (too much space between title and content)*/
 
 @media(max-width :57.5em){
 
@@ -251,6 +251,7 @@
     justify-content:flex-start;
     width: 80%;
     height: auto;
+    padding: 0.2em;
 
 
 }
@@ -271,7 +272,8 @@
     width: 90%;
     height: 40%;
     border-left: 4px solid brown;
-    padding: 0.2em;
+    padding: 0.3em;
+
 
     
 
@@ -279,9 +281,17 @@
 
 .skills div{
 
-    height: 8%;
- 
+    height: fit-content;
     
+
+
+}
+
+.skills h2{
+
+    margin-top: 10px;
+    
+
 
 }
     
