@@ -59,8 +59,7 @@ function BackgroundCondensed(){
 
        
       
-  
-       
+
         <ScribbleStar style={{
             position: "absolute",
             top: "12%",
@@ -78,14 +77,14 @@ function BackgroundCondensed(){
 
         <ScribbleStar style={{
             position: "absolute",
-            top: "35%",
-            left: "28%",
+            top: "25%",
+            left: "20%",
         }} height="243" width="243" />
 
         <Plus
             style={{
                 position: "absolute",
-                top: "70%",
+                top: "80%",
                 left: "64%",
             }} />
 
