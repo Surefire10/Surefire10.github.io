@@ -27,8 +27,8 @@ function Background(){
 
         <Plus style={{
             position: "absolute",
-            top: "44%",
-            left: "86%"
+            top: "65%",
+            left: "25%"
         }} height="233" width="233" />
 
    

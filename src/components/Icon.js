@@ -78,7 +78,7 @@ function LinkedLogo(props){
     const handleMouseClick = () =>{
 
 
-        window.open("https://www.linkedin.com/in/yara-khairat-662583248")
+        window.open("https://www.linkedin.com/in/YaraKhairat")
     }
 
 
