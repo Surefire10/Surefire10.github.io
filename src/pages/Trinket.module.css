@@ -1,5 +1,7 @@
 
 
+
+
 .component{
 
     margin-bottom: 20px;
@@ -25,7 +27,7 @@
 
 .textContainer{
 
-    margin-left: 4.0em ;
+    margin-left: 4.0em;
     height: 50%;
     width: 100%;
     text-align: left;
@@ -35,9 +37,10 @@
 
 .supertext{
 
+  
     font-size: 0.8em;
     padding: 0.5em;
-    margin-bottom: -4.0em;
+    margin-bottom: -5.0em;
 
     
 }    
@@ -47,7 +50,8 @@
 
     color: brown;
     font-size: 4.0em;
-    margin-bottom: -0.0em;
+    padding: 0;
+    margin-bottom: -0.2em;
 
     
 
@@ -67,7 +71,7 @@
 
 
 
-.projectContainer{
+.trinketContainer{
 
     display: flex;
     flex-direction: column;
@@ -80,7 +84,7 @@
    
 }
 
-.project{
+.trinket{
 
     display: flex;
     flex-direction: row;
@@ -97,9 +101,8 @@
 
 .sliderContainer{
 
-    margin: 0 auto;
     overflow: hidden; /*fixed slider bug caused by setting flex-direction: row*/
-    width: 40%;
+    width: 25%;
     padding: 2.0em;
 
 
@@ -163,15 +166,11 @@
     color: aliceblue;
 }
 
-
-
-
 .skillsContainer{
 
    
     height: 30%;
     margin-bottom: 1.0em;
-
 
     
 }
@@ -241,7 +240,7 @@
     
     }
 
-    .projectContainer{
+    .trinketContainer{
 
         min-height: 85%;
     
@@ -249,7 +248,7 @@
     }
 
     
-    .project{
+    .trinket{
 
         display: flex;
         flex-direction: column;
@@ -264,8 +263,7 @@
     .sliderContainer{
         
         margin: 0 auto;
-
-        width: 75%;
+        width: 40%;
         height: 50%;
         padding: 1.3em;
     
@@ -312,7 +310,7 @@
 
     
 
-    .projectContainer{
+    .trinketContainer{
 
     
         height: 350%;
@@ -321,11 +319,16 @@
     
     }
 
-    .project{
+    .trinket{
 
         height: 28%;
         width: 90%;
 
+    }
+
+    .supertext{
+
+        margin-bottom: -2.5em;
     }
 
     .textContainer h2{

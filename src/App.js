@@ -1,9 +1,11 @@
 import { TopBar } from "./components/TopBar";
 import { Home } from "./pages/Home";
-import { Projects } from "./pages/Projects";
 import { About } from "./pages/About";
+import { Projects } from "./pages/Projects";
+import { Trinkets } from "./pages/Trinkets";
 import { Contact } from "./pages/Contact";
 import { Background } from "./components/Drawing";
+
 
 
 
@@ -20,6 +22,7 @@ function App (){
         <Home/>
         <About/>
         <Projects/>
+        <Trinkets/>
         <Contact/>
       </>
      

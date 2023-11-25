@@ -228,6 +228,11 @@ hr{
     
     }
 
+    .smallContainer{
+
+        margin: 0 auto;
+    }
+
     .icons{
 
         max-width: 70%;

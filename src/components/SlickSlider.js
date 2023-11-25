@@ -38,6 +38,39 @@ function ImageSlider(props){
         );
 }
 
+function TrinketSlider(props){
+
+
+
+    
+    let trinket = props.trinket
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        
+        };
+        return (
+        
+            <Slider  {...settings}>
+
+                {trinket.images && trinket.images.map((image) =>{
+                    return (
+                        <div>
+                            <img className = {classes.image} src = {require("../assets/images/"+image)} />
+                        </div>
+                    )})}
+
+            </Slider>
+        
+        );
+}
+
+
 
 
 
@@ -45,4 +78,4 @@ function ImageSlider(props){
 
 
     
-export {ImageSlider}
+export {ImageSlider, TrinketSlider}

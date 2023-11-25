@@ -93,6 +93,8 @@ function TopBar(){
                                 Contact Me
                             </Link> 
                         </li>
+
+                        
                         <Burger isClicked = {click} onClick = {handleOnClick}/>            
                     </ul>
                 </div>

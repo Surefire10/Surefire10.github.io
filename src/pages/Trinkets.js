@@ -1,24 +1,22 @@
 import {BackgroundCondensed} from "../components/Drawing"
-import classes from "./Project.module.css"
+import classes from "./Trinket.module.css"
 import {content} from "../assets/content/content"
-import {ImageSlider} from "../components/SlickSlider"
+import {TrinketSlider} from "../components/SlickSlider"
 
 
-const ProjectData = content.projects
+const TrinketContent = content.trinkets
 
 
 function Card(){
 
     return(
 
-        <div className = {classes.card} id = "projects">
+        <div className = {classes.card} id = "trinkets">
             <div className = {classes.textContainer}>
-                <h4 className={classes.supertext}>Take a Look at My Handy Work.</h4>
-                <h2>Projects</h2>
+                <h4 className={classes.supertext}>Little experiements and</h4>
+                <h2>Trinkets</h2>
                 <p className={classes.content}>
-                    Here's some of the projects that I've worked on lately. 
-                    Some are for clients, some others are personal but
-                    regardless, each one has been a pleasure to work on :)
+                    Other smaller tools.
                 </p>
             </div>
         </div>
@@ -33,7 +31,7 @@ function Card(){
 
 
 
-function ProjectContainer(){
+function TrinketContainer(){
 
 
 
@@ -41,45 +39,38 @@ function ProjectContainer(){
 
 
              
-        <div className={classes.projectContainer}>
+        <div className={classes.trinketContainer}>
 
-                {ProjectData && ProjectData.map((project,) =>{
+                {TrinketContent && TrinketContent.map((trinket,index) =>{
 
                     return(
                         
-                        <div className={classes.project} id="container">
+                        <div className={classes.trinket} id="container">
 
                             <div className={classes.sliderContainer}>
-                                <ImageSlider project = {project}/>
+                                <TrinketSlider trinket = {trinket}/>
                             </div>
 
                             <div className ={classes.infoContainer}>
                                
                                 <div className={classes.title}>
-                                    <h2>{project.title}</h2>
+                                    <h2>{trinket.title}</h2>
                                 </div>
 
                                 <div className={classes.scope}>
-                                    <h2>{project.scope}</h2>
+                                    <h2>{trinket.scope}</h2>
                                 </div>
 
                                 <div className= {classes.description}>
-                                    {project.link? (
-                                        <p>
-                                        {project.description}
-                                        <a href={project.link}> <span></span>Find it on Github.</a>
-                                        </p>
-                                    ) : (
                                     <p>
-                                    {project.description}
-                                
+                                        {trinket.description}
+                                        <a href={trinket.link}> Find it on Github.</a>
                                     </p>
-                                    )}
-                                    
                                 </div>
+
                     
-                                <div className = {classes.skillsContainer} key={project.skills}>
-                                    {project.skills.map((skill) =>{
+                                <div className = {classes.skillsContainer} key={trinket.skills}>
+                                    {trinket.skills.map((skill) =>{
                                         
                                         return(
                                             <div className = {classes.skillItem} key={skill}>
@@ -102,13 +93,13 @@ function ProjectContainer(){
 }
 
 
-function Projects(){
+function Trinkets(){
 
     return (
 
         <div className={classes.component}>
             <Card/>
-            <ProjectContainer/>
+            <TrinketContainer/>
             <BackgroundCondensed/>
         </div>
 
@@ -117,4 +108,4 @@ function Projects(){
 }
 
 
-export {Projects}
+export {Trinkets}
