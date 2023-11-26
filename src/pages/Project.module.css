@@ -2,11 +2,10 @@
 
 .component{
 
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    flex-grow: 3;
+    width: 100%;
+
 
     
 }
@@ -25,9 +24,9 @@
 
 .textContainer{
 
-    margin-left: 4.0em ;
+    margin-left: 0;
     height: 50%;
-    width: 100%;
+    width: 90%;
     text-align: left;
 
 
@@ -38,6 +37,7 @@
     font-size: 0.8em;
     padding: 0.5em;
     margin-bottom: -4.0em;
+    width: fit-content;
 
     
 }    
@@ -48,6 +48,7 @@
     color: brown;
     font-size: 4.0em;
     margin-bottom: -0.0em;
+    width: fit-content;
 
     
 

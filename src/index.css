@@ -7,6 +7,7 @@ html {
   overflow-x: hidden;
   font-family: 'Gill Sans MT', Calibri, sans-serif;
   font-size: calc(15px + 0.390625vw);
+  
 
 }
 body{
@@ -27,8 +28,7 @@ body{
   justify-content:flex-start;
   row-gap: 30px;
   flex-basis: auto;
-   min-height: 50%;
-  
+  margin: 0 auto;
 
 }
 

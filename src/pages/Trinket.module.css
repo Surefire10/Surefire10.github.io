@@ -7,7 +7,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     flex-grow: 3;
 
     
@@ -29,7 +29,7 @@
 
     margin-left: 4.0em;
     height: 50%;
-    width: 100%;
+    width: 90%;
     text-align: left;
 
 
@@ -41,6 +41,7 @@
     font-size: 0.8em;
     padding: 0.5em;
     margin-bottom: -5.0em;
+    width: fit-content;
 
     
 }    
@@ -52,6 +53,7 @@
     font-size: 4.0em;
     padding: 0;
     margin-bottom: -0.2em;
+    width: fit-content;
 
     
 
