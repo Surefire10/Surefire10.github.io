@@ -7,10 +7,13 @@
 
 .container{
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
     background-color: black;
-    height: 3%;
     width: 100%;
-    display: inline-block;
     
 
  } 
@@ -49,18 +52,20 @@
 .mainIcon{
 
     position: relative;
-    width: 10%;
     color: aliceblue;
     float: left;
-    line-height: 0.4em;
+    margin-left: 0.5em;
+    width: 2.0rem;
 
 
 }
 
-.mainIcon{
+.icon{
 
-    margin: 1.05em;
+    width: 100%;
+
 }
+
 
 
 .element{

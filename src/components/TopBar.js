@@ -9,7 +9,9 @@ function Icon(){
 
     return (
 
-        <h2 className={classes.mainIcon}>;(</h2>
+        <div className={classes.mainIcon}>
+            <img className={classes.icon} src = {require("../assets/images/icon.png")} />
+        </div>
 
     )
 
