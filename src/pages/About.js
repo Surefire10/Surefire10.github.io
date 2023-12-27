@@ -44,7 +44,7 @@ function About(){
                         <div><h2>SQL</h2></div>
                         <div><h2>HTML</h2></div>
                         <div><h2>CSS</h2></div>
-                        <div><h2>TypeScrips</h2></div>
+                        <div><h2>TypeScript</h2></div>
                     </div>
                 </div>
             </div>
