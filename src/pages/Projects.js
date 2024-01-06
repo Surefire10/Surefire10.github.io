@@ -77,6 +77,15 @@ function ProjectContainer(){
                                     )}
                                     
                                 </div>
+
+                                <div className={classes.demo}>
+                                    {project.demo?
+                                        <p>
+                                            <a href={project.demo}><span></span>Check it out!</a>
+                                        </p>
+                                    :
+                                    <></>}
+                                </div>
                     
                                 <div className = {classes.skillsContainer} key={project.skills}>
                                     {project.skills.map((skill) =>{
